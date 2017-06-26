@@ -13,6 +13,7 @@
 - (IBAction)sendMessage:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *sendMessageButton;
 @property (weak, nonatomic) IBOutlet UITextView *messageTextView;
+@property (weak, nonatomic) IBOutlet UIView *textBackView;
 
 @end
 
@@ -24,6 +25,9 @@
     self.messageTextView.text = @"Введите сообщение";
     self.messageTextView.textColor = [UIColor lightGrayColor];
     self.sendMessageButton.enabled = NO;
+    self.textBackView.layer.cornerRadius = 10;
+    self.textBackView.layer.borderColor = [[UIColor lightGrayColor] CGColor];
+    self.textBackView.layer.borderWidth = 1;
     // Do any additional setup after loading the view from its nib.
 }
 

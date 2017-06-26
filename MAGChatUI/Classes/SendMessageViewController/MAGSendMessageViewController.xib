@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,6 +12,7 @@
             <connections>
                 <outlet property="messageTextView" destination="1t1-hv-o9N" id="E7S-wG-YQv"/>
                 <outlet property="sendMessageButton" destination="TbW-lm-CRn" id="Xg5-s1-Zyf"/>
+                <outlet property="textBackView" destination="MA8-11-WiL" id="L3L-kh-xMq"/>
                 <outlet property="view" destination="88C-tX-al8" id="LvA-6H-OYR"/>
             </connections>
         </placeholder>
@@ -37,27 +37,38 @@
                         <action selector="sendMessage:" destination="-1" eventType="touchUpInside" id="29e-Ae-mUY"/>
                     </connections>
                 </button>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Введите текст" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1t1-hv-o9N">
-                    <rect key="frame" x="16" y="8" width="247" height="651"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="9G3-Cy-Mzs"/>
-                    </connections>
-                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MA8-11-WiL" userLabel="TextBackView">
+                    <rect key="frame" x="8" y="6" width="261" height="655"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Введите текст" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1t1-hv-o9N">
+                            <rect key="frame" x="6" y="0.0" width="249" height="655"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="9G3-Cy-Mzs"/>
+                            </connections>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="1t1-hv-o9N" secondAttribute="bottom" id="7gz-ce-z1j"/>
+                        <constraint firstAttribute="trailing" secondItem="1t1-hv-o9N" secondAttribute="trailing" constant="6" id="C5t-2k-xQq"/>
+                        <constraint firstItem="1t1-hv-o9N" firstAttribute="leading" secondItem="MA8-11-WiL" secondAttribute="leading" constant="6" id="aMn-j2-Aeq"/>
+                        <constraint firstItem="1t1-hv-o9N" firstAttribute="top" secondItem="MA8-11-WiL" secondAttribute="top" id="wWq-Lj-itv"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="TbW-lm-CRn" secondAttribute="bottom" constant="8" id="1Xt-BC-vZ3"/>
+                <constraint firstAttribute="trailing" secondItem="TbW-lm-CRn" secondAttribute="trailing" constant="16" id="3Iy-xS-gWz"/>
                 <constraint firstItem="bC2-aK-jrm" firstAttribute="leading" secondItem="88C-tX-al8" secondAttribute="leading" id="3aa-fg-IuB"/>
-                <constraint firstItem="TbW-lm-CRn" firstAttribute="leading" secondItem="1t1-hv-o9N" secondAttribute="trailing" constant="16" id="HUj-qo-Cib"/>
-                <constraint firstAttribute="bottom" secondItem="1t1-hv-o9N" secondAttribute="bottom" constant="8" id="ZSo-uw-q7h"/>
-                <constraint firstItem="1t1-hv-o9N" firstAttribute="top" secondItem="88C-tX-al8" secondAttribute="top" constant="8" id="ZXg-r2-Q5x"/>
-                <constraint firstAttribute="trailing" secondItem="TbW-lm-CRn" secondAttribute="trailing" constant="16" id="bgw-hO-du0"/>
-                <constraint firstAttribute="bottom" secondItem="TbW-lm-CRn" secondAttribute="bottom" constant="8" id="d0P-uo-ysF"/>
+                <constraint firstAttribute="bottom" secondItem="MA8-11-WiL" secondAttribute="bottom" constant="6" id="9rf-vP-bgH"/>
+                <constraint firstItem="MA8-11-WiL" firstAttribute="leading" secondItem="88C-tX-al8" secondAttribute="leading" constant="8" id="Wcd-fy-T0M"/>
+                <constraint firstItem="MA8-11-WiL" firstAttribute="top" secondItem="88C-tX-al8" secondAttribute="top" constant="6" id="bS5-b8-GB5"/>
                 <constraint firstAttribute="trailing" secondItem="bC2-aK-jrm" secondAttribute="trailing" id="gPh-zQ-U0O"/>
                 <constraint firstItem="bC2-aK-jrm" firstAttribute="top" secondItem="88C-tX-al8" secondAttribute="top" id="rVj-bS-TGW"/>
-                <constraint firstItem="1t1-hv-o9N" firstAttribute="leading" secondItem="88C-tX-al8" secondAttribute="leading" constant="16" id="yh5-1i-RCG"/>
+                <constraint firstItem="TbW-lm-CRn" firstAttribute="leading" secondItem="MA8-11-WiL" secondAttribute="trailing" constant="10" id="xmv-ru-gVe"/>
             </constraints>
             <point key="canvasLocation" x="34.5" y="54.5"/>
         </view>

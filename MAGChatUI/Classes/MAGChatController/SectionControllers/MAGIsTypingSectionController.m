@@ -15,7 +15,7 @@
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
-    return CGSizeMake(self.collectionContext.containerSize.width, 16);
+    return CGSizeMake(self.collectionContext.containerSize.width, 18);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
