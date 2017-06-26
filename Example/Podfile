@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'MAGChatUI_Example' do
+  pod 'MAGChatUI', :path => '../'
+  pod 'IGListKit', '~> 3.0'
+
+  target 'MAGChatUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

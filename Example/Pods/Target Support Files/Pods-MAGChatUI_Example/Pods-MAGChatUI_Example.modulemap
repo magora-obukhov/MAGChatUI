@@ -1,0 +1,6 @@
+framework module Pods_MAGChatUI_Example {
+  umbrella header "Pods-MAGChatUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

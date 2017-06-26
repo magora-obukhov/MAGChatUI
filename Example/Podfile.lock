@@ -1,0 +1,24 @@
+PODS:
+  - IGListKit (3.0.0):
+    - IGListKit/Default (= 3.0.0)
+  - IGListKit/Default (3.0.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.0.0)
+  - MAGChatUI (0.1.0):
+    - IGListKit (~> 3.0)
+
+DEPENDENCIES:
+  - IGListKit (~> 3.0)
+  - MAGChatUI (from `../`)
+
+EXTERNAL SOURCES:
+  MAGChatUI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
+  MAGChatUI: 8249d47f1df9aa420ab08c2694fc33f43b300d05
+
+PODFILE CHECKSUM: abb32c1c207c6436f8dc055276f7571b42f83703
+
+COCOAPODS: 1.2.0

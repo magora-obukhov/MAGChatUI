@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MAGChatViewController">
+            <connections>
+                <outlet property="chatCollectionView" destination="YbB-bl-Ojf" id="AgS-jR-my9"/>
+                <outlet property="sendMessageBottomConstraint" destination="Yl9-yM-yYs" id="FkC-mw-a1X"/>
+                <outlet property="sendMessageConstraintHeight" destination="Ijs-RM-aEW" id="tWg-Y4-GVF"/>
+                <outlet property="sendMessageConstraintHeightEqual" destination="cY8-XD-4gR" id="7v2-Zx-uXu"/>
+                <outlet property="sendMessageView" destination="g4X-hh-fa8" id="sOF-HO-SH6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Mhp-zl-A7g"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbB-bl-Ojf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ARy-Ok-iWe">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g4X-hh-fa8" userLabel="SendMessageView">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="160" id="Ijs-RM-aEW"/>
+                        <constraint firstAttribute="height" constant="50" id="cY8-XD-4gR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="g4X-hh-fa8" firstAttribute="top" secondItem="YbB-bl-Ojf" secondAttribute="bottom" id="Ak7-Se-pe7"/>
+                <constraint firstItem="g4X-hh-fa8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XJM-IN-R64"/>
+                <constraint firstItem="YbB-bl-Ojf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YcL-qH-3Wd"/>
+                <constraint firstAttribute="bottom" secondItem="g4X-hh-fa8" secondAttribute="bottom" id="Yl9-yM-yYs"/>
+                <constraint firstItem="YbB-bl-Ojf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="czJ-mS-1YS"/>
+                <constraint firstAttribute="trailing" secondItem="g4X-hh-fa8" secondAttribute="trailing" id="k5E-ex-JER"/>
+                <constraint firstAttribute="trailing" secondItem="YbB-bl-Ojf" secondAttribute="trailing" id="qRf-ry-Ld3"/>
+            </constraints>
+            <point key="canvasLocation" x="20" y="169"/>
+        </view>
+    </objects>
+</document>

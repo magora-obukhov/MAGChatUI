@@ -1,0 +1,32 @@
+{
+  "name": "MAGChatUI",
+  "version": "0.1.0",
+  "summary": "UI for chat.",
+  "description": "MAGChatUI provides interface for chat.",
+  "homepage": "https://github.com/Magora-IOS/MAGChatUI",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zyxerion@gmail.com": "MAGChatUI MAGChatUI.xcodeproj rachenko@magora-systems.com"
+  },
+  "source": {
+    "git": "https://github.com/Magora-IOS/MAGChatUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MAGChatUI/Classes/**/*",
+  "public_header_files": "MAGChatUI/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "IGListKit"
+  ],
+  "dependencies": {
+    "IGListKit": [
+      "~> 3.0"
+    ]
+  }
+}
