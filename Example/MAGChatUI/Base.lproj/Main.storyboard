@@ -22,15 +22,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFB-MY-8Jz">
-                                <rect key="frame" x="16" y="72" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="16" y="72" width="108" height="30"/>
+                                <state key="normal" title="Simple example"/>
                                 <connections>
                                     <segue destination="OyD-Wd-g4g" kind="show" id="VqB-dQ-E68"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3I-91-g4r">
-                                <rect key="frame" x="16" y="110" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="16" y="110" width="115" height="30"/>
+                                <state key="normal" title="Custom example"/>
                                 <connections>
                                     <segue destination="WOP-Lb-cDA" kind="show" id="Yme-ey-Gt3"/>
                                 </connections>
@@ -63,11 +63,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75z-E6-HGy">
-                                <rect key="frame" x="309" y="617" width="50" height="30"/>
+                                <rect key="frame" x="279" y="617" width="80" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="ESK-Il-51t"/>
+                                    <constraint firstAttribute="width" constant="80" id="ESK-Il-51t"/>
                                 </constraints>
-                                <state key="normal" title="Chat"/>
+                                <state key="normal" title="Start chat"/>
                                 <connections>
                                     <action selector="startChat:" destination="OyD-Wd-g4g" eventType="touchUpInside" id="A8j-h9-YQa"/>
                                 </connections>
@@ -97,11 +97,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dog-pc-DcN">
-                                <rect key="frame" x="309" y="617" width="50" height="30"/>
+                                <rect key="frame" x="279" y="617" width="80" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="Fzo-M1-Faf"/>
+                                    <constraint firstAttribute="width" constant="80" id="Fzo-M1-Faf"/>
                                 </constraints>
-                                <state key="normal" title="Chat"/>
+                                <state key="normal" title="Start chat"/>
                                 <connections>
                                     <action selector="startChat:" destination="WOP-Lb-cDA" eventType="touchUpInside" id="Yes-zB-awU"/>
                                 </connections>
