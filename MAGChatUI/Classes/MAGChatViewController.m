@@ -72,10 +72,19 @@
 
 - (void)loadSendMessageViewWithClass:(Class)sendMsgViewControllerClass{
     if (sendMsgViewControllerClass != Nil) {
+        NSBundle *bundle = [NSBundle bundleForClass:sendMsgViewControllerClass];
+        UIViewController<MAGSendMessageViewControllerProtocol> * sendMsgViewController = [[sendMsgViewControllerClass alloc]
+                                                                                            initWithNibName:NSStringFromClass(sendMsgViewControllerClass) bundle:bundle];
+        [self loadSendMessageViewWith:sendMsgViewController];
+        
+    }
+}
+
+- (void)loadSendMessageViewWith: (UIViewController<MAGSendMessageViewControllerProtocol> *) sendMsgViewController {
+    if (sendMsgViewController != nil) {
         [sendMessageViewController.view removeFromSuperview];
         [sendMessageViewController removeFromParentViewController];
-        NSBundle *bundle = [NSBundle bundleForClass:sendMsgViewControllerClass];
-        sendMessageViewController = [[sendMsgViewControllerClass alloc]initWithNibName:NSStringFromClass(sendMsgViewControllerClass) bundle:bundle];
+        sendMessageViewController = sendMsgViewController;
         [self addChildViewController:sendMessageViewController];
         [_sendMessageView addSubview:sendMessageViewController.view];
         [sendMessageViewController didMoveToParentViewController:self];
@@ -84,11 +93,11 @@
                                                                            options:0
                                                                            metrics:nil
                                                                              views:@{@"sendMsgView" : sendMessageViewController.view}];
-
+        
         NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[sendMsgView]|"
-                                                                           options:0
-                                                                           metrics:nil
-                                                                             views:@{@"sendMsgView" : sendMessageViewController.view}];
+                                                                               options:0
+                                                                               metrics:nil
+                                                                                 views:@{@"sendMsgView" : sendMessageViewController.view}];
         
         [self.sendMessageView removeConstraint:self.sendMessageConstraintHeightEqual];
         [self.sendMessageView addConstraints:verticalConstraints];
@@ -99,7 +108,6 @@
         }
     }
 }
-
 
 - (void)loadChatController{
     self.chatCollectionView.alwaysBounceVertical = YES;

@@ -10,6 +10,7 @@
 #import "MAGChatMessage.h"
 #define __MAGScrollStickingDistance 300
 #define __MAGScrollStartUpdateOffset -100
+@protocol MAGSendMessageViewControllerProtocol;
 
 @protocol MAGChatViewControllerDelegate <NSObject>
 @required
@@ -34,6 +35,7 @@
 // Custom separators
 - (void)registerDateSeparatorSectionControllerClass:(Class)dateSeparatorSectionControllerClass;
 - (void)registerNewMessagesSeparatorSectionControllerClass:(Class)newMessagesSeparatorSectionControllerClass;
+- (void)loadSendMessageViewWith: (UIViewController<MAGSendMessageViewControllerProtocol> *) sendMsgViewController;
 
 // Additional custom cells
 - (void)registerLoadingSectionControllerClass:(Class)loadingSectionControllerClass;
