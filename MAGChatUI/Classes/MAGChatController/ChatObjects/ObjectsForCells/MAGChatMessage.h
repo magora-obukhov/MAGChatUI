@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <IGListKit/IGListKit.h>
-#import "IGListDiffable.h"
 #import "MAGChatPerson.h"
 
 @interface MAGChatMessage : NSObject <IGListDiffable>

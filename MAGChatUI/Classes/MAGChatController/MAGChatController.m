@@ -199,7 +199,7 @@
 
 - (void)requestSourceForMoreMessages {
     if ([self.delegate respondsToSelector:@selector(needMessagesOffsetBy:)]){
-        [self.delegate needMessagesOffsetBy:[self.conversation.messages lastObject]];
+        [self.delegate needMessagesOffsetBy:[self.conversation.messages firstObject]];
     }
 }
 
