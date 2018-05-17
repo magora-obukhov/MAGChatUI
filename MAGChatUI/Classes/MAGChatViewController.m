@@ -17,7 +17,6 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *sendMessageConstraintHeight;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *sendMessageConstraintHeightEqual;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *sendMessageBottomConstraint;
-
 @end
 
 @implementation MAGChatViewController
@@ -114,7 +113,6 @@
     self.chatCollectionView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
     chatController = [[MAGChatController alloc]initWithCollectionView:self.chatCollectionView viewController:self];
 }
-
 
 #pragma mark - MAGChatController 
 
@@ -221,8 +219,12 @@
     return [chatController isLoading];
 }
 
+- (void)setIsTyping:(BOOL)isTyping typerName: (NSString * _Nullable) typerName {
+    [chatController setIsTyping:isTyping typerName:typerName];
+}
+
 - (void)setIsTyping:(BOOL)isTyping {
-    [chatController setIsTyping:isTyping];
+    [chatController setIsTyping:isTyping typerName:@""];
 }
 
 - (BOOL)isTyping {

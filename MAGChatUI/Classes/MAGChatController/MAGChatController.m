@@ -10,12 +10,14 @@
 #import "MAGTextMessageSectionController.h"
 #import "MAGNewMessageSeparator.h"
 #import "MAGDateSeparator.h"
+#import "MAGIsTypingMessageProtocol.h"
 
 @interface MAGChatController() <IGListAdapterDataSource,UIScrollViewDelegate>
 @property (nonatomic, strong) IGListAdapter *adapter;
 @property (nonatomic, weak) UIViewController *viewController;
 @property (weak, nonatomic) UICollectionView *collectionView;
 @property (nonatomic) MAGChatConversation *conversation;
+@property (nonatomic, copy, nullable) NSString *typerName;
 @end
 
 @implementation MAGChatController
@@ -48,6 +50,11 @@
     }
     return _adapter;
 }
+    
+-(void)setIsTyping:(BOOL)isTyping typerName:(NSString *)typerName {
+    self.isTyping = isTyping;
+    self.typerName = typerName;
+}
 
 #pragma mark - IGListAdapterDataSource
 
@@ -75,7 +82,11 @@
         return [[[sectionClassMapper loadingSectionControllerClass] alloc]init];
     }
     if ([object isKindOfClass:[MAGIsTypingObject class]]) {
-        return [[[sectionClassMapper isTypingSectionControllerClass] alloc]init];
+        id isTypingController = [[[sectionClassMapper isTypingSectionControllerClass] alloc]init];
+        if ([isTypingController conformsToProtocol:@protocol(MAGIsTypingMessageProtocol)]) {
+            [(id<MAGIsTypingMessageProtocol>) isTypingController setTyperName: self.typerName];
+        }
+        return isTypingController;
     }
     if ([object isKindOfClass:[MAGDateSeparator class]]) {
         return [[[sectionClassMapper dateSeparatorSectionControllerClass] alloc]init];

@@ -203,7 +203,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0195EFECCB4A56BA2D3C8D247DA941E0 /* Pods_MAGChatUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAGChatUI_Example.framework; path = "Pods-MAGChatUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0195EFECCB4A56BA2D3C8D247DA941E0 /* Pods_MAGChatUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAGChatUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D2544D27269C39DAEB293AACE89AB7 /* MAGIsTypingObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGIsTypingObject.h; sourceTree = "<group>"; };
 		033C3D6142F9600D1F70003422288D6C /* IGListSectionMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionMap.h; path = Source/Internal/IGListSectionMap.h; sourceTree = "<group>"; };
 		03D90DE37D7C3DA81C355BC9F5CCDDC5 /* MAGSendMessageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGSendMessageViewController.h; sourceTree = "<group>"; };
@@ -216,8 +216,8 @@
 		0A2C7A8B83E033F6CF81452197F86AD5 /* IGListMoveIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndex.m; path = Source/Common/IGListMoveIndex.m; sourceTree = "<group>"; };
 		0BFB9676EB079B424B177649AB96040C /* IGListGenericSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListGenericSectionController.h; path = Source/IGListGenericSectionController.h; sourceTree = "<group>"; };
 		0C76CD5D1C1711D9C3CFA10FB415C55B /* IGListAdapterProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterProxy.h; path = Source/Internal/IGListAdapterProxy.h; sourceTree = "<group>"; };
-		0E072F32B049187C014C028F78E1F7A1 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E9976FC3D1702FA4C4D9B9AA27E9B86 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
+		0E072F32B049187C014C028F78E1F7A1 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E9976FC3D1702FA4C4D9B9AA27E9B86 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
 		0F64ECB3D3A707AEC81A1DC8C7DCA29B /* Pods-MAGChatUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAGChatUI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0FE252BD80037C76D32981C387D86991 /* NSNumber+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+IGListDiffable.m"; path = "Source/Common/NSNumber+IGListDiffable.m"; sourceTree = "<group>"; };
 		0FE2D0324200A204274588ABB63F3746 /* MAGDateSeparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGDateSeparator.h; sourceTree = "<group>"; };
@@ -241,7 +241,7 @@
 		2AA5AA96B7D990F6D1A6C6D35D761AFC /* MAGSendMessageViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGSendMessageViewControllerProtocol.h; sourceTree = "<group>"; };
 		2B6D665F4678AC69A7510D5445085E47 /* IGListAdapterUpdater+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapterUpdater+DebugDescription.h"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.h"; sourceTree = "<group>"; };
 		2BFCEBF66A84015195BEADB71737194F /* MAGChatConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGChatConversation.h; sourceTree = "<group>"; };
-		2C59C6502810E81625D849D053AE3009 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
+		2C59C6502810E81625D849D053AE3009 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
 		2FF365A5CA765275891EEEB72F75A07B /* IGListAdapterUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterDelegate.h; path = Source/IGListAdapterUpdaterDelegate.h; sourceTree = "<group>"; };
 		3810B63ABB48C04D1BABC21E57A18B4D /* IGListAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapter.m; path = Source/IGListAdapter.m; sourceTree = "<group>"; };
 		38958172D96F185C1C08628780F9DF7B /* IGListDisplayHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDisplayHandler.m; path = Source/Internal/IGListDisplayHandler.m; sourceTree = "<group>"; };
@@ -265,9 +265,10 @@
 		4A43819328BC864C089F31F2E1C328DB /* MAGLoadingObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGLoadingObject.h; sourceTree = "<group>"; };
 		4FBA545E5CC992D1F8C088A7E2739357 /* IGListAdapterProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterProxy.m; path = Source/Internal/IGListAdapterProxy.m; sourceTree = "<group>"; };
 		4FFAF512FA708710C7DE1D478CD28A79 /* MAGTextMessageSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGTextMessageSectionController.h; sourceTree = "<group>"; };
-		500539AB0CFD394BAFFE95AB9119EB7D /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
+		500539AB0CFD394BAFFE95AB9119EB7D /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
 		50D603BED4380330E69C29E101FA6392 /* IGListAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAssert.h; path = Source/Common/IGListAssert.h; sourceTree = "<group>"; };
 		51B0CA0F62C1435968D3E5C44B81976A /* MAGLoadingObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGLoadingObject.m; sourceTree = "<group>"; };
+		52167CC920AD3D29009D4D62 /* MAGIsTypingMessageProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGIsTypingMessageProtocol.h; sourceTree = "<group>"; };
 		52D6010EBAC2DB196BFFAFE4484FEF58 /* IGListAdapterUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdater.h; path = Source/IGListAdapterUpdater.h; sourceTree = "<group>"; };
 		530E8F4E143BEFE72C90E711074E2D11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54C45D453E0EE3E472739C6F400114CD /* IGListBindingSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBindingSectionController.m; path = Source/IGListBindingSectionController.m; sourceTree = "<group>"; };
@@ -275,7 +276,7 @@
 		5956A91AA8B208FBBF2F7E05F0D9F43A /* MAGLoadingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MAGLoadingCell.xib; sourceTree = "<group>"; };
 		5A2A51172D5C3E6C75F54BFC33367287 /* IGListAdapterUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterUpdater.m; path = Source/IGListAdapterUpdater.m; sourceTree = "<group>"; };
 		5A5E4D1BE46184A03F7A6A61C4EE5671 /* NSMutableArray+MAGMessagesArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MAGMessagesArray.m"; sourceTree = "<group>"; };
-		5C3F8138B12C6A82D3940A23D77E3285 /* Pods_MAGChatUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAGChatUI_Tests.framework; path = "Pods-MAGChatUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3F8138B12C6A82D3940A23D77E3285 /* Pods_MAGChatUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAGChatUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD7F1694C43F273E1C7C71EC1FB8F9E /* IGListDebugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDebugger.h; path = Source/Internal/IGListDebugger.h; sourceTree = "<group>"; };
 		5FFE65EEFE257333BF9417CDE84C438C /* UICollectionView+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DebugDescription.h"; path = "Source/Internal/UICollectionView+DebugDescription.h"; sourceTree = "<group>"; };
 		603F5EF07DC4DCED722136201D06BAE6 /* MAGLoadingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGLoadingCell.m; sourceTree = "<group>"; };
@@ -298,7 +299,7 @@
 		787C49B28B567005A8BF36D261A53F59 /* MAGSectionControllersMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGSectionControllersMapper.h; sourceTree = "<group>"; };
 		7923CAEDCD025C2D5F18FADA0DCBA9DD /* IGListMoveIndexPathInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPathInternal.h; path = Source/Common/Internal/IGListMoveIndexPathInternal.h; sourceTree = "<group>"; };
 		79508FF966875F3C079CD5836EAE01D2 /* IGListIndexSetResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResultInternal.h; path = Source/Common/Internal/IGListIndexSetResultInternal.h; sourceTree = "<group>"; };
-		79768B6D57475BF0F8E1DF33CDCD539F /* Pods-MAGChatUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MAGChatUI_Tests.modulemap"; sourceTree = "<group>"; };
+		79768B6D57475BF0F8E1DF33CDCD539F /* Pods-MAGChatUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MAGChatUI_Tests.modulemap"; sourceTree = "<group>"; };
 		79B459246EF75ED2700C2595122AF9BC /* MAGChatPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGChatPerson.m; sourceTree = "<group>"; };
 		7C91077B6B3138F472E49493B8F9F842 /* Pods-MAGChatUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAGChatUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F72E5E1097C4EF44E465DBA026813AB /* IGListCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayout.h; path = Source/IGListCollectionViewLayout.h; sourceTree = "<group>"; };
@@ -312,7 +313,7 @@
 		90997A459B785CB6D4DAAAF164F8C3D5 /* UICollectionView+IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+IGListBatchUpdateData.h"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.h"; sourceTree = "<group>"; };
 		9103BF4C1ED1030D62EFEB234B26FB09 /* IGListSupplementaryViewSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSupplementaryViewSource.h; path = Source/IGListSupplementaryViewSource.h; sourceTree = "<group>"; };
 		932DF80016534B4201C118D0BA6ADD1D /* Pods-MAGChatUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGChatUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		977DFBF7F29B2038B8265D96075573E4 /* Pods-MAGChatUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGChatUI_Example-resources.sh"; sourceTree = "<group>"; };
 		981F78CCA48604F7CEFA6B4D1E7957BB /* MAGChatUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAGChatUI-umbrella.h"; sourceTree = "<group>"; };
 		983E418C597EA10DC90B6498A33EB09C /* MAGIsTypingObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGIsTypingObject.m; sourceTree = "<group>"; };
@@ -332,7 +333,7 @@
 		A967DF8274BBCD1C11FBDBBB041A0ED5 /* IGListBindingSectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerDataSource.h; path = Source/IGListBindingSectionControllerDataSource.h; sourceTree = "<group>"; };
 		A99CDF2B02E08EED8D22DBB9A57C6D3C /* MAGTextMessageSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGTextMessageSectionController.m; sourceTree = "<group>"; };
 		A9DC9EF7731B47424CE6C6CBE97A03D7 /* MAGChatUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAGChatUI-prefix.pch"; sourceTree = "<group>"; };
-		AA6446E60DC2B28D06B6B286B649ACFE /* MAGChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MAGChatUI.framework; path = MAGChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6446E60DC2B28D06B6B286B649ACFE /* MAGChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAGChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC4973D25285EBF461C24A29E42DE05 /* IGListBatchUpdateData+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListBatchUpdateData+DebugDescription.m"; path = "Source/Internal/IGListBatchUpdateData+DebugDescription.m"; sourceTree = "<group>"; };
 		AD55E11E106224D349726D5FC29C76AB /* MAGLoadingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGLoadingCell.h; sourceTree = "<group>"; };
 		AD8754AB49248970681DDB7A562CFA0C /* MAGChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGChatViewController.m; sourceTree = "<group>"; };
@@ -350,7 +351,7 @@
 		B958E55CFBB1EF36AD1A16E55E786002 /* MAGTextMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGTextMessageCell.h; sourceTree = "<group>"; };
 		B99326BA761B8885A155C517020FD5CE /* Pods-MAGChatUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGChatUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA124DB21BEFA13D1E6DBA62491E9336 /* Pods-MAGChatUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGChatUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BA2ADCE4B1C27C75D7BFB8E22E14B8B5 /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
+		BA2ADCE4B1C27C75D7BFB8E22E14B8B5 /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
 		BB319E7918A682B46E2D33D0394B6BCD /* IGListAdapterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterInternal.h; path = Source/Internal/IGListAdapterInternal.h; sourceTree = "<group>"; };
 		BC32C2C1E484F34A4C6DDD6E3B69BFA8 /* UICollectionView+IGListBatchUpdateData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+IGListBatchUpdateData.m"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.m"; sourceTree = "<group>"; };
 		BD27361D413DB128525DF5DCE00301D3 /* MAGLoadingSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGLoadingSectionController.h; sourceTree = "<group>"; };
@@ -367,7 +368,7 @@
 		CA642F12360F5FF7E06827EA22FA4212 /* MAGChatMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGChatMessage.h; sourceTree = "<group>"; };
 		CCA7A953DE85A9407E73028EE508F9E9 /* MAGIsTypingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGIsTypingCell.h; sourceTree = "<group>"; };
 		CE1D23C3CC54EDADFFF49CC82A98A69A /* MAGChatController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGChatController.m; sourceTree = "<group>"; };
-		CE635624529EA9C20437AF8A6A9A42EB /* MAGChatUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MAGChatUI.modulemap; sourceTree = "<group>"; };
+		CE635624529EA9C20437AF8A6A9A42EB /* MAGChatUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MAGChatUI.modulemap; sourceTree = "<group>"; };
 		D26436D2A7811097A49DA589E12F2CDE /* MAGSendMessageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGSendMessageViewController.m; sourceTree = "<group>"; };
 		D2D1CC73396428B8C3C888302469D4D4 /* IGListIndexSetResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexSetResult.m; path = Source/Common/IGListIndexSetResult.m; sourceTree = "<group>"; };
 		D2F1DE6F29B5D066E9340B5709A01F40 /* IGListBatchUpdates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBatchUpdates.m; path = Source/Internal/IGListBatchUpdates.m; sourceTree = "<group>"; };
@@ -381,9 +382,9 @@
 		E3E1DD7A8E7D93E40F941F6CCFC0FE9A /* IGListCollectionViewLayoutInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayoutInternal.h; path = Source/Internal/IGListCollectionViewLayoutInternal.h; sourceTree = "<group>"; };
 		E4BF66D266DBBC632B126DAAADA556B0 /* IGListReloadDataUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadDataUpdater.h; path = Source/IGListReloadDataUpdater.h; sourceTree = "<group>"; };
 		E4DC618F9A51B84F9D3F0C06E55022E2 /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResultInternal.h; path = Source/Common/Internal/IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
-		E89099E8AA5F57F772EB7F408D27C4BF /* IGListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IGListKit.modulemap; sourceTree = "<group>"; };
+		E89099E8AA5F57F772EB7F408D27C4BF /* IGListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IGListKit.modulemap; sourceTree = "<group>"; };
 		EA6B022CF8E4E7F39C59E74BB2945631 /* Pods-MAGChatUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGChatUI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EB2C08AFD0C4CBB7E3E643D5A61451AC /* Pods-MAGChatUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MAGChatUI_Example.modulemap"; sourceTree = "<group>"; };
+		EB2C08AFD0C4CBB7E3E643D5A61451AC /* Pods-MAGChatUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MAGChatUI_Example.modulemap"; sourceTree = "<group>"; };
 		EE3550F0415526AC45318CB4F2A18DBC /* NSString+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IGListDiffable.m"; path = "Source/Common/NSString+IGListDiffable.m"; sourceTree = "<group>"; };
 		EE4B60993C35CCAB4751257330ECB952 /* MAGNewMessageSeparator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGNewMessageSeparator.m; sourceTree = "<group>"; };
 		F0AAACED2B999B5518659C7796C084AE /* Pods-MAGChatUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAGChatUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -473,7 +474,6 @@
 				A4D1BDA8C6E17650AD48DA9C3DCB7F56 /* MAGTextMessageCell.xib */,
 				05BE510FD2E563C011FE79B3932525EF /* MAGTextMessageSelfCell.xib */,
 			);
-			name = CollectionViewCells;
 			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
@@ -485,7 +485,6 @@
 				45A5B177C5EF9D8A166DCC0B243B9112 /* MAGSendMessageViewController.xib */,
 				2AA5AA96B7D990F6D1A6C6D35D761AFC /* MAGSendMessageViewControllerProtocol.h */,
 			);
-			name = SendMessageViewController;
 			path = SendMessageViewController;
 			sourceTree = "<group>";
 		};
@@ -502,7 +501,6 @@
 				DBF2C79F163378605C164BF8777C778D /* MAGNewMessagesSeparatorSectionController.m */,
 				F3E370DB3C86587BD057CDDBF4C4B510 /* Messages */,
 			);
-			name = SectionControllers;
 			path = SectionControllers;
 			sourceTree = "<group>";
 		};
@@ -669,16 +667,24 @@
 			path = "Example/Pods/Target Support Files/MAGChatUI";
 			sourceTree = "<group>";
 		};
+		52167CC820AC5582009D4D62 /* IsTypingMessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52167CC920AD3D29009D4D62 /* MAGIsTypingMessageProtocol.h */,
+			);
+			path = IsTypingMessageViewController;
+			sourceTree = "<group>";
+		};
 		58D1DD70D64AC362FEF508950404481D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				132FBFC1076BDDE73BC23E58A97E0362 /* MAGChatViewController.h */,
 				AD8754AB49248970681DDB7A562CFA0C /* MAGChatViewController.m */,
 				44FA1E09E1755EABDC5D84AA643AA22F /* MAGChatViewController.xib */,
+				52167CC820AC5582009D4D62 /* IsTypingMessageViewController */,
 				605C77DCB00044E00E729474F2C7A399 /* MAGChatController */,
 				069BA31FFA333A1AB56506F6CBF10FFA /* SendMessageViewController */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -692,7 +698,6 @@
 				E90F3BF90FDFF5E1DC2CF89893239972 /* SectionControllerMapper */,
 				0E5BD786D2E727641D9C676C9EBA402C /* SectionControllers */,
 			);
-			name = MAGChatController;
 			path = MAGChatController;
 			sourceTree = "<group>";
 		};
@@ -714,7 +719,6 @@
 				4A1FA4677A7B70C66332626FC645D2B0 /* MAGNewMessageSeparator.h */,
 				EE4B60993C35CCAB4751257330ECB952 /* MAGNewMessageSeparator.m */,
 			);
-			name = ObjectsForCells;
 			path = ObjectsForCells;
 			sourceTree = "<group>";
 		};
@@ -769,7 +773,6 @@
 				762947324D4DE25BA54B7F28CFA12CBB /* Diffing */,
 				02F0BDC047C98B80E7F6ACCADFA7212E /* Support Files */,
 			);
-			name = IGListKit;
 			path = IGListKit;
 			sourceTree = "<group>";
 		};
@@ -796,7 +799,6 @@
 			children = (
 				58D1DD70D64AC362FEF508950404481D /* Classes */,
 			);
-			name = MAGChatUI;
 			path = MAGChatUI;
 			sourceTree = "<group>";
 		};
@@ -818,7 +820,6 @@
 				44970D89E8B564DC464C9E8D25F93D9D /* MAGSectionToMessageMapItem.h */,
 				A357287FEA933F3947FBE01E0E552701 /* MAGSectionToMessageMapItem.m */,
 			);
-			name = SectionControllerMapper;
 			path = SectionControllerMapper;
 			sourceTree = "<group>";
 		};
@@ -830,7 +831,6 @@
 				4FFAF512FA708710C7DE1D478CD28A79 /* MAGTextMessageSectionController.h */,
 				A99CDF2B02E08EED8D22DBB9A57C6D3C /* MAGTextMessageSectionController.m */,
 			);
-			name = Messages;
 			path = Messages;
 			sourceTree = "<group>";
 		};
@@ -843,7 +843,6 @@
 				5A5E4D1BE46184A03F7A6A61C4EE5671 /* NSMutableArray+MAGMessagesArray.m */,
 				6522AE1F73A7F02A24EF843F2BFE5D77 /* ObjectsForCells */,
 			);
-			name = ChatObjects;
 			path = ChatObjects;
 			sourceTree = "<group>";
 		};
@@ -875,8 +874,8 @@
 				ECDEF1A0C52F758196FB7BE3CAADF183 /* MAGNewMessagesSeparatorCell.h in Headers */,
 				72C159A38466836E3AF20FC526190AA5 /* MAGNewMessagesSeparatorSectionController.h in Headers */,
 				7B2152F7D99CCE20AA6F4C3449A46520 /* MAGSectionControllersMapper.h in Headers */,
-				382A6F7FE4C3EAFEC1AC27C1F53CC90A /* MAGSectionToMessageMapItem.h in Headers */,
 				BF16FA8EE98D9527FBEE68674ED88E76 /* MAGSendMessageViewController.h in Headers */,
+				382A6F7FE4C3EAFEC1AC27C1F53CC90A /* MAGSectionToMessageMapItem.h in Headers */,
 				FD80FAFB32493151DD425282A689D8E9 /* MAGSendMessageViewControllerProtocol.h in Headers */,
 				413436E5B1C1A49160F3DF9FF3F025AD /* MAGTextMessageCell.h in Headers */,
 				7E468C2227FCF0931509EEA6471E4DA9 /* MAGTextMessageSectionController.h in Headers */,

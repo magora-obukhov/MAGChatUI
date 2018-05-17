@@ -36,7 +36,9 @@
 - (void)registerLoadingSectionControllerClass:(Class)loadingSectionControllerClass;
 - (void)registerIsTypingSectionControllerClass:(Class)isTypingSectionControllerClass;
 
-@property (nonatomic, assign, getter=isLoading) BOOL loading;
+-(void)setIsTyping:(BOOL) isTyping typerName:(NSString * _Nullable) typerName;
+
 @property (nonatomic, assign) BOOL isTyping;
+@property (nonatomic, assign, getter=isLoading) BOOL loading;
 @property (weak, nonatomic) id<MAGChatControllerDelegate> delegate;
 @end

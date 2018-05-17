@@ -41,8 +41,10 @@
 - (void)registerLoadingSectionControllerClass:(Class)loadingSectionControllerClass;
 - (void)registerIsTypingSectionControllerClass:(Class)isTypingSectionControllerClass;
 
-@property (nonatomic) BOOL isLoading;
+-(void)setIsTyping: (BOOL) isTyping typerName: (NSString * _Nullable) typerName;
+
 @property (nonatomic) BOOL isTyping;
+@property (nonatomic) BOOL isLoading;
 @property (weak, nonatomic) IBOutlet UICollectionView *chatCollectionView;
 @property (weak, nonatomic) id<MAGChatViewControllerDelegate> delegate;
 @end
